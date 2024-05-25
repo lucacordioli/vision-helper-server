@@ -1,0 +1,1119 @@
+{
+    "id": 902,
+    "product": {
+        "id": 157,
+        "value": "Luca C. Test"
+    },
+    "name": "Test deck",
+    "description": null,
+    "deckType": {
+        "key": 0,
+        "value": "Single Task"
+    },
+    "deckState": {
+        "key": 2,
+        "value": "Published"
+    },
+    "deckVisibility": {
+        "key": 1,
+        "value": "Private"
+    },
+    "customParameters": null,
+    "creationDate": "2024-04-15T09:21:31.0840433",
+    "lastUpdated": "2024-04-15T09:51:21.5507659",
+    "createdBy": {
+        "id": 262,
+        "email": "Luca.c@ffth.in",
+        "firstName": "Luca",
+        "lastName": "Cordioli",
+        "displayName": "LC"
+    },
+    "lastUpdatedBy": {
+        "id": 262,
+        "email": "Luca.c@ffth.in",
+        "firstName": "Luca",
+        "lastName": "Cordioli",
+        "displayName": "LC"
+    },
+    "isDownloadable": false,
+    "canActuallyDownload": false,
+    "autoEnableControl": false,
+    "deckRole": "Author",
+    "medias": [
+        {
+            "id": 13480,
+            "name": "Cylinder",
+            "caption": "Cylinder",
+            "guid": "113e5cce-891f-44ee-acfa-8054d5bb91d8",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 271984,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.2800786",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13480,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13481,
+            "name": "Finger",
+            "caption": "Finger",
+            "guid": "b24c233d-2a04-4439-ac15-bafb8aa8d31f",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1646992,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.2957045",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13481,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13482,
+            "name": "ForeArm",
+            "caption": "ForeArm",
+            "guid": "dc41c874-782a-4499-a828-2fdf3f996855",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 2215632,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.2957045",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13482,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13483,
+            "name": "Hand",
+            "caption": "Hand",
+            "guid": "7b6d3c28-5650-49aa-9c6a-aeec1cf5524a",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1185264,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.2957045",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13483,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13484,
+            "name": "Shoulder",
+            "caption": "Shoulder",
+            "guid": "20ddcea3-9e7c-478b-b8b3-a94f257c0017",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1871872,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.2957045",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13484,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13485,
+            "name": "UpperArm",
+            "caption": "UpperArm",
+            "guid": "a94fa962-7a6f-4966-83f0-1de9313f7f77",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1736624,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:41:04.3113301",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13485,
+            "steps": [
+                "1713172892694"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13486,
+            "name": "CarEngine_Core",
+            "caption": "CarEngine_Core",
+            "guid": "ea08e6e5-36c8-425d-8a86-2cea8b3f7c28",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1331788,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:05.9560373",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13486,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13487,
+            "name": "CarEngine_Cover",
+            "caption": "CarEngine_Cover",
+            "guid": "0b567ed1-4047-487a-b8d1-ab10c6fa868f",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 595048,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:05.9560373",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13487,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13488,
+            "name": "CarEngine_Head",
+            "caption": "CarEngine_Head",
+            "guid": "13997bdc-1e3c-4f20-a174-fb6df4bbc86c",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 279664,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:05.9560373",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13488,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13489,
+            "name": "CarEngine_Pipes",
+            "caption": "CarEngine_Pipes",
+            "guid": "191de483-fc41-4307-b20d-3548abb93314",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 581660,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:05.9560373",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13489,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13490,
+            "name": "Blades",
+            "caption": "Blades",
+            "guid": "d9dfb569-8092-4548-9904-6d0d6766f6ce",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 1548532,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:58.5814151",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13490,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13491,
+            "name": "CloseUp",
+            "caption": "CloseUp",
+            "guid": "dbd4d0f3-0ac5-47f5-82bc-f82e1b983311",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 325564,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:58.5814151",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13491,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13492,
+            "name": "FanCase",
+            "caption": "FanCase",
+            "guid": "9076e710-e23c-4341-ab01-80c4e89d5378",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 327812,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:58.5814151",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13492,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13493,
+            "name": "Pipes",
+            "caption": "Pipes",
+            "guid": "2ee9b1d2-f153-4b58-a670-a96a98f06af2",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 571624,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:58.5814151",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13493,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        },
+        {
+            "id": 13494,
+            "name": "Spinner",
+            "caption": "Spinner",
+            "guid": "fd9bcc07-e1b8-4606-9c53-2c590d2e1b99",
+            "extension": "glb",
+            "thumbnailExtension": "png",
+            "fileSize": 165132,
+            "contentType": "application/octet-stream",
+            "mediaType": {
+                "key": 4,
+                "value": "3D Object"
+            },
+            "creationDate": "2024-04-15T09:49:58.5814151",
+            "hasThumbnail": true,
+            "parentMediaId": null,
+            "carryOverId": 13494,
+            "steps": [
+                "1713174490657"
+            ],
+            "children": [],
+            "customParameters": null
+        }
+    ],
+    "relatedDecks": [],
+    "tags": [],
+    "deckTasks": [
+        {
+            "id": 881,
+            "deck": {
+                "id": 902,
+                "value": "Test deck"
+            },
+            "name": "New section",
+            "customParameters": null,
+            "steps": [
+                {
+                    "id": "1713172892694",
+                    "Name": "Title 1",
+                    "textBody": "",
+                    "stepType": 0,
+                    "tags": [],
+                    "customStepParam": {
+                        "estimatedTime": {
+                            "ticks": 0,
+                            "days": 0,
+                            "hours": 0,
+                            "milliseconds": 0,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "totalDays": 0,
+                            "totalHours": 0,
+                            "totalMilliseconds": 0,
+                            "totalMinutes": 0,
+                            "totalSeconds": 0
+                        },
+                        "estimatedTimeTollerancePercentage": 0
+                    },
+                    "listOfNode3D": [
+                        {
+                            "id": "17131740643830.97566064602576420",
+                            "name": "Node 1",
+                            "autoPosition": true,
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "scale": 1,
+                            "listOfTags": null,
+                            "listOfElement3D": [
+                                {
+                                    "id": "17131740643830.97908931695084230",
+                                    "name": "Node 1",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Cylinder",
+                                        "mediaId": 13480,
+                                        "mainFileName": "Cylinder.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131740643830.91459189786801991",
+                                    "name": "Node 2",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Finger",
+                                        "mediaId": 13481,
+                                        "mainFileName": "Finger.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131740643830.175551800275280282",
+                                    "name": "Node 3",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "ForeArm",
+                                        "mediaId": 13482,
+                                        "mainFileName": "ForeArm.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131740643830.72296637286210473",
+                                    "name": "Node 4",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Hand",
+                                        "mediaId": 13483,
+                                        "mainFileName": "Hand.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131740643830.460263475876200764",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Shoulder",
+                                        "mediaId": 13484,
+                                        "mainFileName": "Shoulder.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131740643830.66676752570243665",
+                                    "name": "Node 6",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "UpperArm",
+                                        "mediaId": 13485,
+                                        "mainFileName": "UpperArm.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                }
+                            ],
+                            "onEnter": 0,
+                            "onExit": 0,
+                            "onReturn": 0,
+                            "onExitFromMasterGroup": 0
+                        }
+                    ],
+                    "listOfDicoms": [],
+                    "listOfFiles": []
+                },
+                {
+                    "id": "1713174490657",
+                    "Name": "Title 2",
+                    "textBody": "",
+                    "stepType": 0,
+                    "tags": [],
+                    "customStepParam": {
+                        "estimatedTime": {
+                            "ticks": 0,
+                            "days": 0,
+                            "hours": 0,
+                            "milliseconds": 0,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "totalDays": 0,
+                            "totalHours": 0,
+                            "totalMilliseconds": 0,
+                            "totalMinutes": 0,
+                            "totalSeconds": 0
+                        },
+                        "estimatedTimeTollerancePercentage": 0
+                    },
+                    "listOfNode3D": [
+                        {
+                            "id": "17131745460170.8653958350444240",
+                            "name": "Node 1",
+                            "autoPosition": true,
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "scale": 1,
+                            "listOfTags": {},
+                            "listOfElement3D": [
+                                {
+                                    "id": "17131745460170.56362296336812090",
+                                    "name": "Node 1",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": {},
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "CarEngine_Core",
+                                        "mediaId": 13486,
+                                        "mainFileName": "CarEngine_Core.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false,
+                                        "materialChange": {
+                                            "id": 1713174559052,
+                                            "material": "",
+                                            "properties": []
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "17131745460170.7883011717589251",
+                                    "name": "Node 2",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "CarEngine_Cover",
+                                        "mediaId": 13487,
+                                        "mainFileName": "CarEngine_Cover.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745460170.77765317194991422",
+                                    "name": "Node 3",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "CarEngine_Head",
+                                        "mediaId": 13488,
+                                        "mainFileName": "CarEngine_Head.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745460170.105652819311751863",
+                                    "name": "Node 4",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "CarEngine_Pipes",
+                                        "mediaId": 13489,
+                                        "mainFileName": "CarEngine_Pipes.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                }
+                            ],
+                            "onEnter": 0,
+                            "onExit": 0,
+                            "onReturn": 0,
+                            "onExitFromMasterGroup": 0
+                        },
+                        {
+                            "id": "17131745980070.94150739532883661",
+                            "name": "Node 2",
+                            "autoPosition": true,
+                            "position": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "scale": 1,
+                            "listOfTags": {},
+                            "listOfElement3D": [
+                                {
+                                    "id": "17131745986490.65865991116252424",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Blades",
+                                        "mediaId": 13490,
+                                        "mainFileName": "Blades.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745986490.424272800341497954",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "CloseUp",
+                                        "mediaId": 13491,
+                                        "mainFileName": "CloseUp.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745986490.0022924861815765144",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "FanCase",
+                                        "mediaId": 13492,
+                                        "mainFileName": "FanCase.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745986490.34667601655551674",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Pipes",
+                                        "mediaId": 13493,
+                                        "mainFileName": "Pipes.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                },
+                                {
+                                    "id": "17131745986490.158766441304074144",
+                                    "name": "Node 5",
+                                    "autoPosition": true,
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "rotation": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                    },
+                                    "scale": 1,
+                                    "listOfTags": null,
+                                    "listOfElement3D": [],
+                                    "onEnter": 0,
+                                    "onExit": 0,
+                                    "onReturn": 0,
+                                    "onExitFromMasterGroup": 0,
+                                    "type": 1,
+                                    "visibility": "0",
+                                    "ElementCustomParameter": {
+                                        "caption": "Spinner",
+                                        "mediaId": 13494,
+                                        "mainFileName": "Spinner.glb",
+                                        "hasAnimation": false,
+                                        "animation": {
+                                            "startingAnimation": "",
+                                            "resetAnimation": "",
+                                            "startOnLoad": false,
+                                            "loopOnStart": false,
+                                            "reverseOnStart": false,
+                                            "clips": []
+                                        },
+                                        "overrideMaterial": false
+                                    }
+                                }
+                            ],
+                            "onEnter": 0,
+                            "onExit": 0,
+                            "onReturn": 0,
+                            "onExitFromMasterGroup": 0
+                        }
+                    ],
+                    "listOfDicoms": [],
+                    "listOfFiles": []
+                }
+            ],
+            "tags": []
+        }
+    ],
+    "locked": false
+}
