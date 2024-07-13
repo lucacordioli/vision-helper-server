@@ -5,11 +5,17 @@ from typing import Annotated
 from fastapi import FastAPI, File, UploadFile, Form
 from starlette.middleware.cors import CORSMiddleware
 
+from src.utils import shared_data
 from src.utils.functions import get_info_from_id, get_id_from_text
+from src.utils.graph import WorkflowManager
 from src.utils.knowledge import Knowledge
+
+global json_data
 
 app = FastAPI()
 knowledge = Knowledge()
+shared_data.initialize_data('/Users/lucacordioli/Documents/Lavori/polimi/TESI/visionHelperSrv/data/data.json')
+workflow_manager = WorkflowManager()
 
 app.add_middleware(
     CORSMiddleware,
@@ -37,7 +43,7 @@ async def add_document(doc_id: Annotated[str, Form()], file: UploadFile):
     return {"message": f"File '{file.filename}' salvato con successo come '{file_name}'"}
 
 
-@app.get("/get-all-documents")
+@app.get("/documents")
 async def get_all_documents():
     return knowledge.get_all_documents()
 
@@ -55,7 +61,7 @@ async def delete_document(doc_id: str):
 
 
 @app.get("/info-from-id")
-async def info_from_id(obj_id: int):
+async def info_from_id(obj_id: str):
     with open('/Users/lucacordioli/Documents/Lavori/polimi/TESI/visionHelperSrv/data/data.json', 'r') as file:
         data = json.load(file)
         res = get_info_from_id(obj_id, data)
@@ -68,3 +74,17 @@ async def id_from_text(text: str):
         data = json.load(file)
         res = get_id_from_text(text, data)
         return res
+
+
+@app.get("/chat")
+async def chat(text: str):
+    res = workflow_manager.run(text)
+
+    output = {"message": res["messages"][-1].content}
+    if "item_id" in res:
+        output["item_id"] = res["item_id"]
+    if "pdf_name" in res:
+        output["pdf_name"] = res["pdf_name"]
+    if "page_n" in res:
+        output["page_n"] = res["page_n"]
+    return output
