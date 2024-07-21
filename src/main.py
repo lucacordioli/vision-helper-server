@@ -2,13 +2,15 @@ import json
 import os
 import shutil
 from typing import Annotated
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI, File, UploadFile, Form, Query, Body
+from pydantic import BaseModel
 from starlette.middleware.cors import CORSMiddleware
 
 from src.utils import shared_data
 from src.utils.functions import get_info_from_id, get_id_from_text
 from src.utils.graph import WorkflowManager
 from src.utils.knowledge import Knowledge
+from src.utils.shared_data import initialize_data
 
 global json_data
 
@@ -76,13 +78,20 @@ async def id_from_text(text: str):
         return res
 
 
-@app.get("/chat")
-async def chat(text: str):
-    res = workflow_manager.run(text)
+class ChatRequest(BaseModel):
+    text: str
+    deck: str
+
+
+@app.post("/chat")
+async def chat(request: ChatRequest = Body(...)):
+
+    initialize_data(request.deck)
+    res = workflow_manager.run(request.text)
 
     output = {"message": res["messages"][-1].content}
     if "item_id" in res:
-        output["item_id"] = res["item_id"]
+        output["item"] = res["item_id"]
     if "pdf_name" in res:
         output["pdf_name"] = res["pdf_name"]
     if "page_n" in res:
