@@ -16,7 +16,6 @@ global json_data
 
 app = FastAPI()
 knowledge = Knowledge()
-shared_data.initialize_data('/Users/lucacordioli/Documents/Lavori/polimi/TESI/visionHelperSrv/data/data.json')
 workflow_manager = WorkflowManager()
 
 app.add_middleware(
@@ -85,6 +84,10 @@ class ChatRequest(BaseModel):
 
 @app.post("/chat")
 async def chat(request: ChatRequest = Body(...)):
+
+    print(request.text)
+    print(request.deck)
+    print(request.id)
 
     initialize_data(request.deck)
     res = workflow_manager.run(request.text)

@@ -21,7 +21,7 @@ class WorkflowManager:
         self.tool_executor = ToolExecutor(self.tools)
         self.model = ChatOpenAI(
             api_key=os.environ.get("OPENAI_API_KEY"),
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
         ).bind_tools(self.tools)
         self.workflow = self._create_workflow()
         self.checkpointer = MemorySaver()
@@ -65,9 +65,28 @@ class WorkflowManager:
                     output[key] = response[key]
         return output
 
-    def run(self, message: str):
+    def run(self, message: str, element_id: str):
+        prompt = f"""
+                You are an agent in a 3D XR environment, tasked with assisting users as they interact with various objects. You receive messages from the user along with an ID corresponding to an object the user recently interacted with. The user may ask you for information about this object or other objects within the environment.
+
+                You have access to two tools:
+                1. **Information Tool**: Provides information about an object given its ID.
+                2. **Highlight Tool**: Returns the ID of a specific object and automatically highlights it in the 3D environment.
+                
+                You can respond in one of three ways:
+                1. **Answer the question without accessing any tool or knowledge**: For example, provide generic responses or common knowledge.
+                2. **Use the Information Tool** to answer questions related to the object the user is currently interacting with. For instance, if the user asks "What is this?" you can use this tool to obtain and display detailed information about the object.
+                3. **Use the Highlight Tool** to answer questions about the location of a specific object. For instance, if the user asks "Where is the pump?" you can use this tool to get the ID and highlight the piece in the 3D environment.
+                
+                Examples of usage:
+                - **User**: "What is this?" (Request information using the Information Tool)
+                - **User**: "Where is the pump?" (Highlight the piece using the Highlight Tool)
+
+                User's message: "{message}"
+                Element ID: "{element_id}"
+                """
         return self.app.invoke(
-            {"messages": [HumanMessage(content=message)]},
+            {"messages": [HumanMessage(content=prompt)]},
             config={"configurable": {"thread_id": 42}}
         )
 
