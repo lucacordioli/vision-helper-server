@@ -6,8 +6,7 @@ from src.utils.functions import get_id_from_text, get_info_from_id
 
 @tool
 def find_element(query: str):
-    """Call if you have information about an item and need to find the ID, through the ID it will be possible to
-    highlight the item and find its location."""
+    """Call if you want to highlight an element by its ID"""
     print("find_element")
 
     json_data = shared_data.get_json_data()
@@ -21,7 +20,7 @@ def find_element(query: str):
 
 @tool
 def get_info(element_id: str):
-    """Call if you have the part id and need to find textual, explanation information related to it."""
+    """Call if you have the element id and need to find textual, explanation information related to it."""
     print("get_info")
 
     json_data = shared_data.get_json_data()

@@ -79,6 +79,7 @@ async def id_from_text(text: str):
 
 class ChatRequest(BaseModel):
     text: str
+    id: str
     deck: str
 
 
@@ -90,7 +91,7 @@ async def chat(request: ChatRequest = Body(...)):
     print(request.id)
 
     initialize_data(request.deck)
-    res = workflow_manager.run(request.text)
+    res = workflow_manager.run(request.text, request.id)
 
     output = {"message": res["messages"][-1].content}
     if "item_id" in res:
