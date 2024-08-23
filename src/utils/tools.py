@@ -26,7 +26,7 @@ def get_info(element_id: str):
     json_data = shared_data.get_json_data()
     res = get_info_from_id(element_id, json_data)
     return {"messages": res["text"], "page_n": res["page_n"],
-            "pdf_name": "placeholder"}  # if necessary, change the pdf_name
+            "pdf": res["document_id"]}  # if necessary, change the pdf_name
 
     # if "01" in element_id.lower():
     #     return {"messages": "Engine 1 is a powerful engine that can generate 1000 horsepower."}

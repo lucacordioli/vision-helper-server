@@ -11,7 +11,7 @@ from src.utils.tools import find_element, get_info
 class SystemState(TypedDict):
     messages: Annotated[list[AnyMessage], add_messages]
     item_id: str
-    pdf_name: str
+    pdf: str
     page_n: str
 
 
@@ -26,6 +26,7 @@ class WorkflowManager:
         self.workflow = self._create_workflow()
         self.checkpointer = MemorySaver()
         self.app = self.workflow.compile(checkpointer=self.checkpointer)
+
 
     def _create_workflow(self):
         workflow = StateGraph(SystemState)
@@ -60,7 +61,7 @@ class WorkflowManager:
         ]
         output = {"messages": tool_messages}
         for response in responses:
-            for key in ["item_id", "pdf_name", "page_n"]:
+            for key in ["item_id", "pdf", "page_n"]:
                 if key in response:
                     output[key] = response[key]
         return output

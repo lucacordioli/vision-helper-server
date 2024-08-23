@@ -92,12 +92,13 @@ async def chat(request: ChatRequest = Body(...)):
 
     initialize_data(request.deck)
     res = workflow_manager.run(request.text, request.id)
+    print(res)
 
     output = {"message": res["messages"][-1].content}
     if "item_id" in res:
         output["item"] = res["item_id"]
-    if "pdf_name" in res:
-        output["pdf_name"] = res["pdf_name"]
+    if "pdf" in res:
+        output["pdf"] = res["pdf"]
     if "page_n" in res:
         output["page_n"] = res["page_n"]
     return output

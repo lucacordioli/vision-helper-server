@@ -41,9 +41,10 @@ def get_info_from_id(obj_id: str, json_data: object) -> dict:
     res = knowledge.query(query_text)
 
     page_number = str(res["metadatas"][0][0]["page"])
+    document_id = res["metadatas"][0][0]["source"]
     text = res["documents"][0][0]
 
-    return {"page_n": page_number, "text": text}
+    return {"page_n": page_number, "document_id": document_id, "text": text}
 
 
 def get_id_from_text(text: str, json_data) -> [str]:
