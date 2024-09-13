@@ -26,6 +26,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
 
 @app.post("/add-document")
 async def add_document(doc_id: Annotated[str, Form()], file: UploadFile):
